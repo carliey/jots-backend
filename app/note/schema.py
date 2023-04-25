@@ -7,3 +7,4 @@ class NoteSchema(ma.SQLAlchemyAutoSchema):
         exclude = ('is_deleted',)
         include_fk = True
     images = ma.Nested('ImageSchema', many=True)
+    audio = ma.Nested('AudioSchema', many=True)

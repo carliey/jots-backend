@@ -29,6 +29,8 @@ from app.note.controller import bp as note_bp
 app.register_blueprint(note_bp)
 from app.image.controller import bp as image_bp
 app.register_blueprint(image_bp)
+from app.audio.controller import bp as audio_bp
+app.register_blueprint(audio_bp)
 
 # Error handlers
 from .error_handlers import *

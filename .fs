@@ -20,3 +20,8 @@ FLASK SETUP LOG
 2023-04-20 08:49:23: pytest installed successfully
 2023-04-20 18:21:40: websocket-client installed successfully
 2023-04-20 19:42:01: Package: websocket-client uninstalled successfully
+2023-04-25 19:38:32: Blueprint audio added successfully
+2023-04-25 20:00:43: elevenlabs installed successfully
+2023-04-25 20:00:55: markdown installed successfully
+2023-04-25 20:01:10: BeautifulSoup installed successfully
+2023-04-25 20:03:11: beautifulsoup4 installed successfully

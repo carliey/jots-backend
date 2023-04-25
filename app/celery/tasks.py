@@ -39,7 +39,10 @@ def create_note_task(subject, topic, curriculum, level, user_id, transient_audio
     except Exception as e:
         print(e)
         if transient_audio_file:
-            os.remove(transient_audio_file)
+            try:
+                os.remove(transient_audio_file)
+            except:
+                pass
         db.session.rollback()
         return "Note Could Not Be Generated Successfully!"
 
