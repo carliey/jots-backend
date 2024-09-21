@@ -13,15 +13,15 @@ To run the autoNote Flask server, follow the steps below:
    FLASK_DEBUG=True
    SECRET_KEY=can-be-any-secret
 
-   OPENAI_API_KEY=ysk-zRmwrArvRtwE9l8qHTScT3BlbkFJhQgvlaGyvXjrxbsYtofy
-   STABILITY_API_KEY=sk-8M61ofKZlYbAh4cFkBN3nXDLsx4stwafStPunMEeQeHVViZL
+   OPENAI_API_KEY=<OPEN_AI_KEY>
+   STABILITY_API_KEY=<STABILITY_AI_KEY>
 
-   SPACE_REGION=fra1
-   SPACE_NAME=dhfspace
-   SPACE_KEY=JOXURNEKMRJRK5VB7YOH
-   SPACE_SECRET=shvDm7YkHBtn+G9EAOLP3h5Bkw0mEcKsLVL2X0RD1V4
-   SPACE_ENDPOINT=https://dhfspace.fra1.digitaloceanspaces.com/
-   SPACE_EDGE_ENDPOINT=https://dhfspace.fra1.digitaloceanspaces.com/
+   SPACE_REGION=<SPACE_REGION>
+   SPACE_NAME=<SPACE_NAME>
+   SPACE_KEY=<SPACE_KEY>
+   SPACE_SECRET=<SPACE_SECRET>
+   SPACE_ENDPOINT=<SPACE_ENDPOINT>
+   SPACE_EDGE_ENDPOINT=<SPACE_EDGE_ENDPOINT>
    ```
 
    Note that you'll need to obtain the necessary API keys and DigitalOcean Spaces information to fill out the values.
