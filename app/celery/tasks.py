@@ -44,6 +44,8 @@ def create_note_task(subject, topic, curriculum, level, user_id, transient_audio
             except:
                 pass
         db.session.rollback()
+        sio.emit('failed', {'note':'failed'})
+
         return "Note Could Not Be Generated Successfully!"
 
 @celery.task

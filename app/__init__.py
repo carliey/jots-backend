@@ -33,4 +33,4 @@ from app.audio.controller import bp as audio_bp
 app.register_blueprint(audio_bp)
 
 # Error handlers
-from .error_handlers import *
+# from .error_handlers import *

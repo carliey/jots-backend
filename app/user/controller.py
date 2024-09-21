@@ -35,6 +35,7 @@ def reset_password():
 @bp.post('/register')
 def register():
     data = request.json
+    print(data)
     user = User.get_by_email(data.get('email'))
     if user is not None:
         return jsonify({'message': 'User already exists'}), 400

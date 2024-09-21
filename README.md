@@ -7,21 +7,23 @@ The KlassNaut Flask server is a backend service for the [KlassNaut ReactJs app](
 To run the autoNote Flask server, follow the steps below:
 
 1. Add a `.env` file to the root of the project with the following details:
-    ```
-    DATABASE_URI=your-db-url
-    FLASK_DEBUG=True
-    SECRET_KEY=can-be-any-secret
 
-    OPENAI_API_KEY=your-open-ai-key
-    STABILITY_API_KEY=your-stability-ai-key
+   ```
+   DATABASE_URI=postgresql://localhost/klassNaut
+   FLASK_DEBUG=True
+   SECRET_KEY=can-be-any-secret
 
-    SPACE_REGION=your-digital-ocean-space-regoin
-    SPACE_NAME=your-digital-ocean-space-name
-    SPACE_KEY=your-digital-ocean-space-key
-    SPACE_SECRET=your-digital-ocean-space-secret
-    SPACE_ENDPOINT=your-digital-ocean-space-endpoint
-    SPACE_EDGE_ENDPOINT=your-digital-ocean-space-edge-endpoint-or-just-the-end-point-again
-    ```
+   OPENAI_API_KEY=ysk-zRmwrArvRtwE9l8qHTScT3BlbkFJhQgvlaGyvXjrxbsYtofy
+   STABILITY_API_KEY=sk-8M61ofKZlYbAh4cFkBN3nXDLsx4stwafStPunMEeQeHVViZL
+
+   SPACE_REGION=fra1
+   SPACE_NAME=dhfspace
+   SPACE_KEY=JOXURNEKMRJRK5VB7YOH
+   SPACE_SECRET=shvDm7YkHBtn+G9EAOLP3h5Bkw0mEcKsLVL2X0RD1V4
+   SPACE_ENDPOINT=https://dhfspace.fra1.digitaloceanspaces.com/
+   SPACE_EDGE_ENDPOINT=https://dhfspace.fra1.digitaloceanspaces.com/
+   ```
+
    Note that you'll need to obtain the necessary API keys and DigitalOcean Spaces information to fill out the values.
 
 2. Install Python on your computer.

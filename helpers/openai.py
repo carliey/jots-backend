@@ -90,7 +90,7 @@ prompts = {
 
 def chat(prompt, request):
     completion = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4",
         messages=[
             {"role": "system", "content": prompts[prompt]},
             {"role": "user", "content": request},
